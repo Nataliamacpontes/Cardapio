@@ -1,0 +1,85 @@
+
+body {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 0;
+    padding-left: 0;
+    
+}
+
+main {
+    background-image: url(fundo-papel.jpg);
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#conteudo {
+    margin: auto;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    border: 1px solid black;
+    width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: url(lateral.jpg);
+}
+
+#conteudo>main> h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+section div div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    width: 350px;
+    text-align: center;
+    padding: 7px;
+}
+
+section {
+    display: flex;
+    gap: 100px;
+}
+
+section div div h2 {
+    font-size: 32px;
+    color: yellow;
+}
+
+.rosa {
+    background-color: rgb(245, 51, 155);
+}
+
+.marrom {
+    background-color: rgb(223, 136, 78);
+}
+
+.amarelo {
+    background-color:gold;
+    color: white;
+}
+
+.amarelo h2 {
+    color: white;
+}
+
+.azul {
+    background-color: rgb(0, 183, 255);
+}
+
+.verde {
+    background-color: rgb(51, 163, 51);
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
